@@ -1,0 +1,57 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.image {
+  width: 350px;
+  background-image: url("../assets/profile.jpeg");
+  height: 350px;
+  border-radius: 50% !important;
+  background-position: center;
+}
+
+.text {
+  color: rgb(154, 157, 158);
+}
+
+.info {
+  margin-left: 20px;
+  width: 50vw;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: fit-content;
+}
+
+.body {
+  width: 75vw;
+}
+
+.button {
+  background-image: linear-gradient(
+    to right,
+    rgb(157, 112, 247),
+    rgb(31, 79, 182)
+  );
+  color: white;
+  height: 40px;
+  margin: 40px;
+  border-radius: 12px;
+  border: none;
+}
