@@ -1,0 +1,32 @@
+.text {
+  color: rgb(154, 157, 158);
+}
+
+.contact {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  fill: white;
+  margin-right: 20px;
+  svg {
+    fill: white;
+  }
+}
+
+.header {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin-left: 0;
+}
