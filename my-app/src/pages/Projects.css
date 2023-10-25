@@ -1,14 +1,55 @@
-.header {
-
-}
-
-.text {
-    color: rgb(154, 157, 158);
-}
-
 .projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(154, 157, 158);
+  padding: 20px;
+
+  .title {
+    padding-bottom: 20px;
+  }
+
+  .body {
+    padding: 20px;
+  }
+  .header {
+    font-weight: bold;
+  }
+  .map {
+    width: 75vw;
+    background-color: rgb(156, 192, 249);
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: black;
+    padding: 10px;
+  }
+
+  .warning {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    padding-right: 0;
+  }
+
+  .safe {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    padding-right: 0;
+  }
+
+  .row {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
+  }
 }
