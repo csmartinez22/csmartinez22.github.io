@@ -1,0 +1,14 @@
+.header {
+
+}
+
+.text {
+    color: rgb(154, 157, 158);
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
