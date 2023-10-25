@@ -175,7 +175,7 @@ const Projects = () => {
           </div>
           <div className="row">
             <div className="safe"></div>
-            Currently not at risk of gentrification
+            Not at risk of gentrification
           </div>
         </div>
       </div>
