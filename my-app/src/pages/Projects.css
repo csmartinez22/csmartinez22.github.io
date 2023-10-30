@@ -17,7 +17,8 @@
     font-weight: bold;
   }
   .map {
-    width: 75vw;
+    width: 1000px;
+    height: 600px;
     background-color: rgb(156, 192, 249);
     position: relative;
     margin-bottom: 20px;
