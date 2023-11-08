@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="header">
           Or follow me here!
           <div className="icons">
-            <a href="https://www.linkedin.com/in/joseph-martinez-0b8624124">
+            <a href="https://www.linkedin.com/in/joseph-a-martinez/">
               <AiFillLinkedin className="icon" size={32} />
             </a>
             <a href="https://github.com/csmartinez22">

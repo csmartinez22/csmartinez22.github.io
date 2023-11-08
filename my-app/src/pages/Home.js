@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
@@ -39,12 +40,16 @@ const Home = () => {
           tab. Thanks for visiting!
         </div>
         <div className="flex">
-          <button type="button" className="button">
-            Resume
-          </button>
-          <button type="button" className="button">
-            CV
-          </button>
+          <Link to="/files/JM_Resume_2023.pdf" target="_blank" download>
+            <button type="button" className="button">
+              Resume
+            </button>
+          </Link>
+          <Link to="/files/JM_CV.pdf" target="_blank" download>
+            <button type="button" className="button">
+              CV
+            </button>
+          </Link>
         </div>
       </div>
     </div>
