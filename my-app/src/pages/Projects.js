@@ -202,6 +202,43 @@ const Projects = () => {
         gentrification in Puerto Rico could look different now compared to back
         then. Using current housing data could circumvent that issue.
       </div>
+
+      <h2 className="header">Resources</h2>
+      <div className="body">
+        If you'd like to recreate my project, learn more about AI, or learn more
+        about the ongoing gentrification in Puerto Rico, here are some resources
+        to help you out!
+      </div>
+      <ul>
+        <li>
+          <a href="https://data.census.gov/all?q=Puerto+Rico">
+            Puerto Rico Census Data
+          </a>
+        </li>
+        <li>
+          <a href="https://scikit-learn.org/stable/">scikit-learn</a>
+        </li>
+        <li>
+          <a href="https://scikit-learn.org/stable/modules/generated/sklearn.semi_supervised.SelfTrainingClassifier.html#sklearn.semi_supervised.SelfTrainingClassifier">
+            SelfTrainingClassifer
+          </a>
+        </li>
+        <li>
+          <a href="https://periodismoinvestigativo.com/2022/12/a-nightmare-for-puerto-ricans-to-find-a-home-while-others-accumulate-properties/">
+            Centro De Periodismo Investigativo
+          </a>
+        </li>
+        <li>
+          <a href="https://www.nytimes.com/2017/09/26/upshot/nearly-half-of-americans-dont-know-people-in-puerto-ricoans-are-fellow-citizens.html?mcubz=3&_r=0">
+            NY Times
+          </a>
+        </li>
+        <li>
+          <a href="https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python">
+            Harvard CS50’s Introduction to Artificial Intelligence with Python
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
