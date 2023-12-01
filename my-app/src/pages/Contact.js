@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="header">Please feel free to reach me at: </div>
           <div>
             Email:{" "}
-            <a href="mailto: csmartinez22@outlook.com">
+            <a href="mailto: cs.martinez22@outlook.com">
               csmartinez22@outlook.com
             </a>
           </div>
