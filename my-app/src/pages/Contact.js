@@ -14,7 +14,7 @@ const Contact = () => {
           <div>
             Email:{" "}
             <a href="mailto: cs.martinez22@outlook.com">
-              csmartinez22@outlook.com
+              cs.martinez22@outlook.com
             </a>
           </div>
           <div>Phone Number: 617-961-2158</div>
