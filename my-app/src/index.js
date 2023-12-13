@@ -22,7 +22,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/*" element={<NoPage />} />
+          <Route path="/*" element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>
