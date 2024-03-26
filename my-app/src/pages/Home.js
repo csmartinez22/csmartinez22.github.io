@@ -1,7 +1,16 @@
-import { Link } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
+  const downloadResume = () => {
+    const pdfUrl = "/files/JM_Resume_2023.pdf";
+    window.open(pdfUrl, "_blank");
+  };
+
+  const downloadCV = () => {
+    const pdfUrl = "/files/JM_CV.pdf";
+    window.open(pdfUrl, "_blank");
+  };
+
   return (
     <div className="home bg-dark">
       <div className="main">
@@ -40,16 +49,12 @@ const Home = () => {
           tab. Thanks for visiting!
         </div>
         <div className="flex">
-          <Link to="/files/JM_Resume_2023.pdf" target="_blank" download>
-            <button type="button" className="button">
-              Resume
-            </button>
-          </Link>
-          <Link to="/files/JM_CV.pdf" target="_blank" download>
-            <button type="button" className="button">
-              CV
-            </button>
-          </Link>
+          <button type="button" className="button" onClick={downloadResume}>
+            Resume
+          </button>
+          <button type="button" className="button" onClick={downloadCV}>
+            CV
+          </button>
         </div>
       </div>
     </div>
