@@ -2,7 +2,7 @@ import "./Home.css";
 
 const Home = () => {
   const downloadResume = () => {
-    const pdfUrl = "/files/JM_Resume_2023.pdf";
+    const pdfUrl = "/files/JM_Resume.pdf";
     window.open(pdfUrl, "_blank");
   };
 
@@ -35,17 +35,13 @@ const Home = () => {
           <h1>About Me</h1>
         </div>
         <div className="body">
-          I'm Joseph Martinez, a full-stack software engineer currently at
-          WillowTree. I went to Amherst College for my undergraduate and majored
-          in Computer Science. I enjoy learning more about Machine Learning and
-          AI in my free time. I reflect on my academic career at Amherst and
-          remember my machine learning class being one of my most exciting
-          classes. Since then, I've taken Harvard CS50's Introduction to
-          Artificial Intelligence with Python on edX and worked on a personal
-          project that uses semi-supervised learning to classify which
-          municipalities in Puerto Rico are at risk of gentrification, which you
-          can learn more about under the Projects tab. Below, you can find my
-          resume and CV. If you'd like to reach out, please visit the Contact
+          I'm Joseph Martinez, a Salvadoran American full-stack software
+          engineer currently at WillowTree. I went to Amherst College for my
+          undergraduate and majored in Computer Science. I enjoy learning more
+          about Machine Learning and AI in my free time. This fall, I'll be
+          continuing my education and attending Dartmouth College for my Master
+          of Engineering in Computational Engineering! Below, you can find my
+          resume and CV. If you'd like to reach out, please visit the contact
           tab. Thanks for visiting!
         </div>
         <div className="flex">
